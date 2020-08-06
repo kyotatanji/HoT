@@ -32,7 +32,8 @@ System.out.println("Hello, "+input+"!");
         System.out.println("Heads: "+h+", Tails: "+t);
 
         if(h>t){
-             System.out.println(input+" won!");
+
+            System.out.println(input+" won!");
         }
         else{
              System.out.println(input+" lost!");
