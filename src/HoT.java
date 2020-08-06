@@ -2,8 +2,12 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class HoT {
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+System.out.println("Who are you?");
+String input = scanner.nextLine();
+System.out.println("Hello, "+input+"!");
 
 
         System.out.println("Tossing a coin...");
