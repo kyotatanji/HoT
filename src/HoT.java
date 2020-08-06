@@ -32,10 +32,10 @@ System.out.println("Hello, "+input+"!");
         System.out.println("Heads: "+h+", Tails: "+t);
 
         if(h>t){
-             System.out.println("You won!");
+             System.out.println(input+" won!");
         }
         else{
-             System.out.println("You lost!");
+             System.out.println(input+" lost!");
         }
         
         scanner.close();
